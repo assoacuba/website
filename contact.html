@@ -7,7 +7,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="images/acuba_logo.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -27,6 +27,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/197831dfe2.js" crossorigin="anonymous"></script>
+
 </head>
 <body class="sub_page">
 
@@ -72,49 +75,43 @@
   <section class="contact_section  long_section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
           <div class="form_container">
             <div class="heading_container">
               <h2>
-                Contact Us
+                Nous contacter
               </h2>
+              <h3>
+                Tu souhaites...
+              </h3>
             </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box">
-                <input type="submit">
-              </div>
-            </form>
 
-            <?php
-    if (isset($_POST['message'])) {
-        $retour = mail('destinataire@free.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
-        if($retour)
-            echo '<p>Votre message a bien été envoyé.</p>';
-    }
-    ?>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
+            <div class="contact">
+              <div class="col-lg-4"> 
+
+                <h3> Rejoindre l’équipe ? 👨🏽‍🤝‍👨🏼 </h3>
+                <div class="button">
+                  <a href="google.fr">Je postule </a>
+                </div>
+              </div>
+              <div class="col-lg-4"> 
+                <h3> Nous faire un don de matériel ? <br>📤</h3>
+                <div class="button">
+                  <a href="google.fr">Je donne </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4"> 
+                <h3> Echanger avec nous pour un partenariat ? <br>👀</h3>
+                <div class="button">
+                  <a href="google.fr">En savoir plus</a>
+                </div>
+              </div>
+
+
             </div>
-          </div>
         </div>
       </div>
-    </div>
+    </div>          
   </section>
   <!-- end contact section -->
 
@@ -131,16 +128,22 @@
            asso.acuba@gmail.com
           </span>
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/acuba_asso/?next=%2F">
           <i class="fa fa-instagram" aria-hidden="true"></i>
           <span>
             @acuba.asso
           </span>
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/company/acuba/?viewAsMember=true">
           <i class="fa fa-linkedin" aria-hidden="true"></i>
           <span>
             Linkedin
+          </span>
+        </a>
+        <a href="https://www.tiktok.com/@acuba_asso?is_from_webapp=1&sender_device=pc">
+          <i class="fab fa-tiktok" aria-hidden="true"></i>
+          <span>
+            TikTok
           </span>
         </a>
       </div>
