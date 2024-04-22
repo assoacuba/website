@@ -821,10 +821,10 @@ a:focus {
   justify-content: right;
 }
 
-.about_section .actions a {
+.about_section a {
   color: #48A259;
 }
-.about_section .actions a:hover {
+.about_section a:hover {
   color: #f89646;
   transition: 0.5s;
 }
