@@ -77,6 +77,19 @@
   .about_section .actions .img-box img {
     width: 100%;
   }
+  .join_us {
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .join_us h2{
+    font-size: 27px;
+  }
+  .furniture_section{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 
 
   .furniture_section .heading_advertise .icon_container{
