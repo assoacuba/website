@@ -126,6 +126,18 @@
     margin-top: -80px;
   }
 
+  .furniture_details_section .forfait {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Vous pouvez ajuster les styles individuels des div pour les petits écrans ici */
+  .furniture_details_section .price-box{
+    width: 100%;
+    padding: 10px 0px 0px 0px;}
+
+
 
   .slider_section {
     padding-top: 45px;
