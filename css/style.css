@@ -784,6 +784,7 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: transparent;
 }
 
 .about_section .img-box img {
@@ -839,6 +840,7 @@ a:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: transparent;
 
 }
 
