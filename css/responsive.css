@@ -54,14 +54,20 @@
     width: auto;
     margin-top: 35px;
     margin-bottom: 45px;
+
   }
 
   .about_section .team-pic {
-    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes de taille égale */
+    justify-items: center; /* Centrer les images dans chaque cellule */
+    width: 100%;
+    
   }
 
   .about_section .team-pic img {
-    width: 100%;
+    width: 50%;
+    margin-bottom: 10px; /* Espacement entre les images pour éviter qu'elles se touchent */
   }
 
   .about_section .actions {

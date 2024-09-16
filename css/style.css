@@ -843,9 +843,16 @@ a:focus {
   background-color: transparent;
 
 }
+ 
+.about_section .team-pic a {
+  text-decoration: none;
+  display: block; 
+}
 
-.about_section .team-pic img {
-  width: 25%;
+.about_section .team-pic a img {
+  width: 90%;
+  height: auto; 
+  display: block; 
 
 }
 
