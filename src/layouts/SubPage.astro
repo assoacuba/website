@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+const { title } = Astro.props;
+---
+
+<BaseLayout title={title}>
+    <body class="sub_page">
+        <div class="hero_area">
+            <Header page={title} />
+            <slot />
+        </div>
+        <Footer />
+        <script is:inline src="js/jquery.min.js"></script>
+        <script is:inline src="js/bootstrap.js"></script>
+        <script is:inline src="js/custom.js"></script>
+        <script is:inline src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    </body>
+</BaseLayout>

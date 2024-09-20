@@ -1,0 +1,24 @@
+---
+import '../styles/bootstrap.css';
+import '../styles/font-awesome.min.css';
+import '../styles/style.css';
+import '../styles/responsive.css';
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="generator" content={Astro.generator}>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+		<title>Acuba | {title}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/197831dfe2.js" crossorigin="anonymous"></script>
+    </head>
+    <slot />
+</html>
