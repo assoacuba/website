@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout title="Accueil">
+    <body>
+        <slot />
+        <Footer />
+        <script is:inline src="js/jquery.min.js"></script>
+        <script is:inline src="js/bootstrap.js"></script>
+        <script is:inline src="js/custom.js"></script>
+        <script is:inline src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    </body>
+</BaseLayout>

@@ -1,0 +1,230 @@
+---
+import Header from "../components/Header.astro";
+import HomePage from "../layouts/HomePage.astro";
+---
+
+<HomePage title="Accueil">
+  <div class="hero_area">
+    <Header page="Accueil" />
+    <section class="slider_section long_section">
+      <div id="customCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="detail-box">
+                    <h1>
+                      Achetez pour vous <br />
+                      Plantez pour nous !
+                    </h1>
+                    <p>
+                      Acuba collecte, répare et revend à moindre coûts des
+                      appareils électroniques pour leur donner une seconde vie.
+                      Les bénéfices sont reversés à des associations de
+                      reforestation.
+                    </p>
+                    <div class="btn-box">
+                      <a href="/contact" class="btn1">Contact</a>
+                      <a href="/about" class="btn2">A propos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="img-box">
+                    <img src="images/save-planet.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="join_us">
+    <h2>Envie de vous investir dans l'association ? N'attendez plus !</h2>
+    <div class="join-button">
+      <a href="/contact">Rejoindre l'association</a>
+    </div>
+  </div>
+  <!--
+  <section class="furniture_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Nos appareils en location
+        </h2>
+        <p>
+          Vous êtes étudiants sur le campus de Vauban à Lille et vous avez urgemment besoin d'un ordinateur portable pour la journée ou d'une imprimante pour la semaine ? Faites appel à Acuba !
+        </p>
+      </div>
+     
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f7.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Imprimante
+              </h5>
+              <div class="price_box">
+                <h6 class="price_heading">
+                  5 <span>€</span> 
+                </h6>
+                <a href="detailfurniture.html">
+                  Voir plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f8.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Ordinateur portable
+              </h5>
+              <div class="price_box">
+                <h6 class="price_heading">
+                  30 <span>€</span> 
+                </h6>
+                <a href="detailfurniture2.html">
+                  Voir plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f9.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Ecran d'ordinateur
+              </h5>
+              <div class="price_box">
+                <h6 class="price_heading">
+                  10 <span>€</span> 
+                </h6>
+                <a href="detailfurniture3.html">
+                  Voir plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="furniture.html" class="btnsells">
+          Voir tous les appareils
+        </a>
+      </div>
+    </div>
+  </section>
+  -->
+  <section class="about_section layout_padding long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>A propos de nous</h2>
+            </div>
+            <p>
+              Acuba est une association loi 1901 née d'un constat simple : trop
+              d'appareils électroniques sont jetés alors qu'ils sont encore
+              réparables, voire parfaitement fonctionnels pour certains !
+              <br /> Depuis, nous collectons, réparons et revendons tous types d'appareils
+              pour leur donner une seconde vie et permettre aux plus faibles revenus
+              d'avoir un accès convenable à la technologie.
+            </p>
+            <div class="btn-box">
+              <a href="/about" class="about-btn">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Nos dernières actualités
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/b1.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Look even slightly believable. If you are
+              </h5>
+              <p>
+                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/b2.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Anything embarrassing hidden in the middle
+              </h5>
+              <p>
+                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/b3.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Molestias magni natus dolores odio commodi. Quaerat!
+              </h5>
+              <p>
+                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+</HomePage>
