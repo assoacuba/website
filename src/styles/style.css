@@ -834,6 +834,11 @@ a:focus {
   align-items: center;
   justify-content: center;
 }
+.about_section .team-content h6 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 .about_section .team-pic {
   display: flex;
@@ -1055,36 +1060,80 @@ a:focus {
   text-align: center;
 }
 
-.contact_section .contact{
-  display: flex; 
-  justify-content: space-evenly;
-  text-align: center;
-
+.contact_section .contact {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  grid-template-rows: repeat(2, auto); /* 2 lignes, auto pour s'adapter à la taille du contenu */
+  gap: 20px; /* Espacement entre les cartes */
+  justify-items: center; /* Centrer les éléments dans chaque cellule */
 }
 
-.contact_section .contact .button{
+.contact_section .contact .col-lg-4{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.contact_section .contact .card {
+  display: grid;
+  background-color: #f8f8f8;
+  grid-template-columns: 60px 1fr auto; /* Colonne 1 pour l'icône, colonne 2 pour le texte, colonne 3 pour le bouton */  justify-content: flex-start;
+  align-items: center;
+  gap: 10px; /* Espacement entre les colonnes */
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 9px 26px -7px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 10px 10px 25px -18px rgba(0, 0, 0, 0.64);
+  width: 100%;
+}
+
+.contact_section .contact .card .icon {
+  grid-column: 1;
+  background-color: #48A259;
+  border-radius: 10px;
+  display: flex; /* Utiliser flex pour centrer l'icône */
+  justify-content: left; /* Centrer l'icône horizontalement */
+  align-items: left; /* Centrer l'icône verticalement */
+  width: 70px; /* Largeur fixe pour s'assurer que la taille est uniforme */
+  height: 70px; /* Hauteur fixe pour s'assurer que la taille est uniforme */
+}
+
+.contact_section .contact .card .icon i{
+  font-size: 45px;
+  color: #f8f8f8;
+  margin: auto;
+}
+
+.contact_section .contact .card .text {
+  grid-column: 2;
+  text-align: left;
+  padding-left: 30px;
   
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
+}
+
+
+.contact_section .contact .card .button{
+  grid-column: 3;
+  display: grid;
+  justify-content: right;
+  align-items: center;
 }
   
 .contact_section .contact .button a {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #48A259;
+    background-color: #f89646;
     color: #f8f8f8;
     border-radius: 0;
-    border: 1px solid #48A259;
+    border: 1px solid #f89646;
     -webkit-transition: all .2s;
     transition: all .2s;
   }
   
 .contact_section .contact .button a:hover{
     background-color: transparent;
-    color: #48A259;
+    color: #f89646;
   }
 
 

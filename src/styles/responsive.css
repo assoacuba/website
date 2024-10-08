@@ -201,27 +201,47 @@
     margin: 0 5px;
   }
 
-  .contact {
+  .contact_section .col-lg-4{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
-  .contact h3{
-    margin-top: 50px;
-  }
-
-}
-
-@media (max-width: 576px) {
-  .long_section {
-    margin-left: 25px;
-    margin-right: 25px;
+  .contact_section .contact {
+    grid-template-columns: 1fr; /* Une seule colonne */
+  
+    gap: 15px; /* Moins d'espacement entre les cartes */
   }
 
-
-  .info_section .info_links .info_links_menu {
-    margin-bottom: 35px;
+  .contact_section .contact .card {
+    grid-template-columns: 40px 1fr; /* Icône et texte sur une ligne */
+    grid-template-rows: auto auto; /* Bouton sur une nouvelle ligne */
+    gap: 10px;
+    padding: 10px 15px; /* Moins de padding sur mobile */
+    width: 100%;
   }
 
+  .contact_section .contact .card .icon {
+    width: 45px; /* Taille réduite pour l'icône */
+    height: 45px;
+  }
+
+  .contact_section .contact .card .icon i {
+    font-size: 30px; /* Taille plus petite pour l'icône sur mobile */
+  }
+
+  .contact_section .contact .card .text {
+    padding-left: 10px; /* Moins de padding pour le texte */
+  }
+
+  /* Placer le bouton sur une nouvelle ligne */
+  .contact_section .contact .card .button {
+    grid-column: 1 / -1; /* Occupe toute la largeur, sur la deuxième ligne */
+    justify-content: center; /* Centrer le bouton sur mobile */
+    padding-bottom: 5px;
+  }
+
+  .contact_section .contact .button a {
+    padding: 8px 12px; /* Taille plus petite du bouton sur mobile */
+  }
 }
 
 @media (max-width: 480px) {}
