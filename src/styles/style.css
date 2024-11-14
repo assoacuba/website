@@ -448,8 +448,26 @@ a:focus {
   font-weight: 705;
   margin-top: -80px;
   margin-bottom: 30px;
-
 }
+
+.furniture_section .heading_advertise h5 {
+  text-align: center;
+ 
+}
+
+.furniture_section .heading_advertise p {
+  text-align: center;
+  margin-bottom: 60px;
+  font-style: italic;
+  font-size: 15px;  
+}
+
+.furniture_section .heading_advertise h6 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+
 
 
 .furniture_section .heading_advertise .icon_container
@@ -487,7 +505,7 @@ a:focus {
 
 
 .furniture_section .heading_advertise .icon_container img {
-  width: 50px; /* Taille des icônes */
+  width: 75px; /* Taille des icônes */
   height: auto; /* Pour maintenir le ratio hauteur-largeur */
 }
 
