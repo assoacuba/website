@@ -54,6 +54,10 @@ body {
   position: relative;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 35px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 705;
+  
 }
 
 /*header section*/
@@ -86,6 +90,13 @@ body {
   margin: 0 auto;
 }
 
+.custom_nav-container .navbar-nav li
+{
+ font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
@@ -258,8 +269,10 @@ a:focus {
   color: #000000;
 }
 
-.slider_section .detail-box h1 {
-  font-weight: bold;
+.slider_section .detail-box h2 {
+  font-size: 35px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 705;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -290,6 +303,7 @@ a:focus {
   border: 1px solid #f89646;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
@@ -306,6 +320,7 @@ a:focus {
   border: 1px solid #48A259;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
 }
 
 .slider_section .detail-box .btn-box .btn2:hover {
@@ -345,7 +360,10 @@ a:focus {
 
 .join_us h2{
   text-align: center;
-  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 705;
+  margin-bottom: 10;
 }
 .join_us .join-button{
   display: grid;
@@ -353,6 +371,8 @@ a:focus {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .join_us .join-button a {
@@ -423,9 +443,11 @@ a:focus {
   margin: 0;
   text-align: left;
   text-transform: uppercase;
-  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 705;
   margin-top: -80px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 
 }
 
@@ -544,6 +566,7 @@ a:focus {
   border: 1px solid #48A259;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
   
 }
 .furniture_section .btn-box .btnsells:hover{
@@ -655,6 +678,7 @@ a:focus {
   border: 1px solid #48A259;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
   
 }
 .furniture_details_section .btn-box .btnsells:hover{
@@ -679,6 +703,7 @@ a:focus {
   border: 1px solid #48A259;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
   
 }
 .furniture_details_section .btn-box .btn-rent:hover{
@@ -709,6 +734,7 @@ a:focus {
   border: 1px solid #90C85D;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
 }
 
 .furniture_details_section .price-box .pin h5{
@@ -720,6 +746,7 @@ a:focus {
   border: 1px solid #29605D;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
 }
 .furniture_details_section .price-box .chene h5{
   display: inline-block;
@@ -730,6 +757,7 @@ a:focus {
   border: 1px solid #4E3629;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
 }
 .furniture_details_section .price-box .sequoia h5{
   display: inline-block;
@@ -740,6 +768,7 @@ a:focus {
   border: 1px solid #DB742E;
   -webkit-transition: all .2s;
   transition: all .2s;
+  font-weight: bold;
 }
 
 
@@ -754,6 +783,7 @@ a:focus {
     border: 1px solid #f89646;
     -webkit-transition: all .2s;
     transition: all .2s;
+    font-weight: bold;
   }
 
   .about_section .detail-box .btn-box .about-btn:hover{
@@ -773,10 +803,12 @@ a:focus {
 
 .about_section .container h2{
   text-align: center;
-  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 60px;
-  margin-top: -70px;
+  font-size: 35px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 705;
+
 }
 
 .about_section .img-box{
@@ -796,6 +828,10 @@ a:focus {
   margin-bottom: 35px;
 }
 
+.about_section .detail-box h2 {
+  margin-bottom: 20px;
+}
+
 .about_section h6 {
   font-size: 19px;
   line-height: 1.5;
@@ -806,6 +842,8 @@ a:focus {
  font-weight: bold;
  text-align: center;
  text-transform: uppercase;
+ font-family: 'Libre Franklin', sans-serif;
+ font-weight: 705;
 
 }
 .about_section .title {
@@ -886,6 +924,21 @@ a:focus {
 
 .about_section .actions .img-box {
   justify-content: right;
+}
+
+.about_section .partenaire-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+  width: 60%;
+}
+
+.about_section .partenaire-text {
+  display: grid;
+  justify-content:first baseline;
+  align-items: center;
+  padding-top: 5px;
 }
 
 .about_section a {
