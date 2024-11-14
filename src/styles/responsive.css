@@ -97,6 +97,9 @@
     margin-right: 25px;
   }
 
+  .furniture_section .heading_advertise .icon_container img{
+    width: 50px;
+  }
 
   .furniture_section .heading_advertise .icon_container{
     background-color: #48A259;
